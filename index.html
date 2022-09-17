@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/54b2133511.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="cointainer">
+            <nav>
+                <!-- logo -->
+                <img src="/IMG/mm-removebg-preview.png" class="logo"alt="">
+                <!-- logo -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer</p>
+                <h1>Hello, I'm <span>Shivam</span> <br>Limbachiya from Gujarat, India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------ABOUT----------------------------------------------------------------- -->
+    <div id="about">
+        <div class="cointainer">
+            <div class="row">
+                <div class="about-col1"><img src="/IMG/pot.jpeg" alt=""></div>
+                <div class="about-col2">
+                    <h1 class="subtittle">About Me</h1>
+                    <p>
+                        I’m a nice fun and friendly person, I’m honest and punctual, I work well in a team but also on my own as I like to set myself goals which I will achieve, I have good listening and communication skills.  I have good interpersonal skills, am an excellent team worker and am keen and very willing to learn and develop new skills. I have a creative mind and am always up for new challenges. I am well organized and always plan ahead to make sure I manage my time well.
+                    </p>
+                    <div class="tabtittle">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontent activetab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>65%</li>
+                            <li><span>C/C++</span><br>80%</li>
+                            <li><span>OPPs</span><br>90%</li>
+                            <li><span>Core Java</span><br>85%</li>
+                            <li><span>HTML5</span><br>65%</li>
+                            <li><span>CSS</span><br>40%</li>
+                            <li><span>Data Science</span><br>60%</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="experience">
+                        <ul>
+                            <li><span></span><br>Inexperienced!</li>
+                            <li><span></span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tabcontent" id="education">
+                        <ul>
+                            <li><span>Pursuing Bachelor</span><br>Government Engineering College - Patan,<br>University - GTU</li>
+                            <li><span>HSE</span><br>Smt. K.A.Patel ShivHari school - KSV Campus, <br>Board - GSEB</li>
+                            <li><span>SSC</span><br>St. Xavier's high school, <br> Board - GSEB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------services---------------------------------------- -->
+    <div id="services">
+        <div class="cointainer">
+            <h1 class="subtittle">My Hobbies</h1>
+            <div class="serviceslist">
+                <div>
+                    <h2>Programming</h2>
+                    <p>
+                        I wrote my first piece of code in C back when was in Xith grade and was one of 30 kids in my school with the combination of PCM + Computer Science.Before I took PCM  had no idea what wanted to be or do with my life although I did know that I had to take science. Now I am pursuing Bachelor in Computer Science & Engineering
+                    <p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div> 
+                <div>
+                    <h2>Gaming</h2>
+                    <p>
+                        I love gaming. I play games everyday, all day and never get tired of it. I'm good at it and it makes me really happy. 
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>  
+                <div>
+                    <h2>Geopolitics</h2>
+                    <p>
+                        I love Geopolitics since I watched the video of 1971 Kargil War by Khan Sir. I am also huge fan of our external affairs minister of india Dr. S. Jaishankar
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>             
+            </div>
+        </div>
+    </div>
+
+
+<!-- ------------------------------------------Contact------------------------------------------------- -->
+
+<div id="contact">
+    <div class="cointainer">
+        <div class="row">
+            <div class="contentLeft">
+                <h1 class="subtittle">Contact Me :)</h1>
+                <p><i class="fa-solid fa-envelope"></i> limbachiyashivam27@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8469734916</p>
+                <div class="socialicon">
+                    <a href="https://www.facebook.com/shivam.limbachiya.98"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shivam-limbachiya-731234247"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/ShivamL8469?t=YP4rwB7snSK_WsqW3k6gcQ&s=08"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/itz_mr.shivam.limbachiya?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ShivamL8469"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contentRight">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your e-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy">
+        <p>Copyright © Shivam.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontent");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right="0";
+        }
+        function closemenu() {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwc5BRedX3re08i68ZMCpBryh5yakXHjDXB0jpK76A4LvUrEKkT2tg99Pw071xU01DPhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function () {
+                    msg.innerHTML=""                    
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
