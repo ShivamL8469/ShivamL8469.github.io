@@ -133,6 +133,13 @@ nav ul li a:hover::after{
 .tabcontent.activetab{
     display: block;
 }
+.equald{
+    display: flex;
+    
+}
+.equald ul{
+    margin-right: 10px;
+}
 /* **********************srevices************************** */
 #services{
 padding: 30px 0;
