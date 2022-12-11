@@ -75,11 +75,13 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: -30px;
 }
 .about-col1{
     flex-basis: 35%;
 }
 .about-col1 img{
+    margin-top: 10px;
     width: 100%;
     border-radius: 15px;
 }
