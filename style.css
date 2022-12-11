@@ -75,7 +75,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -30px;
+    margin-top: -55px;
 }
 .about-col1{
     flex-basis: 35%;
