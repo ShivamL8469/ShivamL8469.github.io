@@ -23,27 +23,40 @@ body{
 .cointainer{
     padding: 10px 10%;
 }
-nav{
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 10%;
+    margin-top: -10px;
+
+}
+.sticky{
+    padding: 5px 10%;
+    background-color: rgba(128, 128, 128, 0.513);
+
 }
 .logo{
-    width: 140px;
+    width: 100px;
 }
-nav ul li{
+header ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
-nav ul li a{
+header ul li a{
     text-decoration: none;
     color: white;
     font-size: 18px;
     position: relative;
 }
-nav ul li a::after{
+header ul li a::after{
     content: '';
     width: 0;
     height: 3px;
@@ -53,7 +66,7 @@ nav ul li a::after{
     bottom: -6px;
     transition: 0.5s;
 }
-nav ul li a:hover::after{
+header ul li a:hover::after{
     width: 100%;
 }
 .header-text{
@@ -76,7 +89,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: -55px;
+    margin-top: -30px;
 }
 .about-col1{
     flex-basis: 35%;
@@ -146,7 +159,7 @@ nav ul li a:hover::after{
 }
 /* **********************srevices************************** */
 #services{
-padding: 30px 0;
+padding: 50px 0;
 
 }
 .serviceslist{
@@ -257,11 +270,11 @@ form .btn2{
     margin-top:100px ;
 }
 /* **************************** mobile CSS***************************************** */
-nav .fa-regular{
+header .fa-regular{
     display: none;
 
 }
-nav .fa-solid{
+header .fa-solid{
     display: none;
 }
 @media only screen and (max-width:600px){
@@ -269,21 +282,21 @@ nav .fa-solid{
         background-image: url(/IMG/cccc.jpg);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 150%;
         font-size: 16px;
     }
     .header-text h1{
         font-size: 30px;
     }
-    nav .fa-solid{
+    header .fa-solid{
         display: block;
         font-size: 25px;        
     }
-    nav .fa-regular{
+    header .fa-regular{
         display: block;
         font-size: 25px;        
     }
-    nav ul{
+    header ul{
         background: #cc00ff;
         position: fixed;
         top: 0;
@@ -294,12 +307,12 @@ nav .fa-solid{
         z-index: 2;
         transition: right 0.5s;
     }
-    nav ul li{
+    header ul li{
         display: block;
         margin: 20px;
 
     }
-    nav ul .fa-regular{
+    header ul .fa-regular{
         position: absolute;
         top: 25px;
         left: 25px;
