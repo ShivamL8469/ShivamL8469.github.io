@@ -9,12 +9,10 @@
     <script src="https://kit.fontawesome.com/54b2133511.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="header">
-        <div class="cointainer">
-            <nav>
-                <!-- logo -->
-                <img src="/IMG/mm-removebg-preview.png" class="logo"alt="">
-                <!-- logo -->
+    
+    <div>
+            <header class="sticky">
+                <img src="/IMG/mm-removebg-preview.png" class="logo" alt="">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -22,14 +20,16 @@
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </header>
+        </div>
+        <div id="header"class="cointainer">  
             <div class="header-text">
                 <p>Programmer</p>
                 <h1>Hello, I'm <span>Shivam</span> <br>Limbachiya from Gujarat, India</h1>
             </div>
-        </div>
     </div>
+    
     <!-- -------------------------------ABOUT----------------------------------------------------------------- -->
     <div id="about">
         <div class="cointainer">
@@ -80,7 +80,7 @@
     </div>
     <!-- -------------------------------services---------------------------------------- -->
     <div id="services">
-        <div class="cointainer">
+        <div class="cointainer newH">
             <h1 class="subtittle">My Hobbies</h1>
             <div class="serviceslist">
                 <div>
@@ -192,11 +192,17 @@
                 msg.innerHTML = "Message Sent Successfully"
                 setTimeout(function () {
                     msg.innerHTML=""                    
-                },3000)
+                },5000)
                 form.reset()
             })
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header"); 
+            header.classList.toggle("sticky", window.scrollY > 0);
+        }) 
+    </script>
 </body>
 </html>
