@@ -88,6 +88,9 @@ nav ul li a:hover::after{
 .about-col2{
     flex-basis: 60%;
 }
+.about-col2 p{
+    margin-top: 30px;
+}
 .subtittle{
     font-size: 60px;
     font-weight: 600;
