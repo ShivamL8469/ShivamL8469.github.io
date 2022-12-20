@@ -17,6 +17,7 @@
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Hobbies</a></li>
+                    <li><a href="#project">My work</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
@@ -80,7 +81,7 @@
     </div>
     <!-- -------------------------------services---------------------------------------- -->
     <div id="services">
-        <div class="cointainer newH">
+        <div class="cointainer">
             <h1 class="subtittle">My Hobbies</h1>
             <div class="serviceslist">
                 <div>
@@ -108,7 +109,34 @@
         </div>
     </div>
 
-
+<!-- -----------------------------------------Projects--------------------------- -->
+<div id="project">
+    <div class="cointainer">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/IMG/P1.jpg" alt="">
+                <div class="layer">
+                    <h3>An Education Website</h3>
+                    <p>
+                        This is a website for education purpose. It is made using HTML, CSS, Bootstrap, JavaScript, PHP and MySQL. It is a responsive website.
+                    </p>    
+                    <a href="https://illuminateme84.github.io/"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/IMG/P2.jpg" alt="">
+                <div class="layer">
+                    <h3>A Club Website</h3>
+                    <p>
+                        This is a website for a club. It is made using HTML, CSS, Bootstrap, JavaScript, PHP and MySQL. It is a responsive website.
+                    </p>   
+                    <a href="https://theideapreneurship022.github.io/"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- ------------------------------------------Contact------------------------------------------------- -->
 
 <div id="contact">
@@ -192,7 +220,7 @@
                 msg.innerHTML = "Message Sent Successfully"
                 setTimeout(function () {
                     msg.innerHTML=""                    
-                },1000)
+                },5000)
                 form.reset()
             })
             .catch(error => console.error('Error!', error.message))
