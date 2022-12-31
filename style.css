@@ -358,7 +358,7 @@ header .fa-solid{
         font-size: 25px;        
     }
     header ul{
-        background: grey;
+        background: #262626;
         position: fixed;
         top: 0;
         right: -120px;
