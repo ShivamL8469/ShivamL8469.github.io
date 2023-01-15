@@ -104,6 +104,7 @@ header ul li a:hover::after{
 }
 .about-col2 p{
     margin-top: 30px;
+    text-align: justify;
 }
 .subtittle{
     font-size: 60px;
@@ -173,6 +174,7 @@ padding: 55px 0;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
+    text-align: justify;
     border-radius: 10px;
     transition: background 0.5s, tranform 0.5s;
 }
