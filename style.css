@@ -414,6 +414,14 @@ header .fa-solid{
     .copy{
         font-size: 14px;
     }
+    .layer h3{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .layer p{
+        font-size: 10px;
+    }
+    
 }
 #msg{
     color: #cc00ff;
